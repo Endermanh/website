@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>I am [Your Name]</title>
+  <style>
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#0b1220,#071024);color:#e6eef6;display:flex;align-items:center;justify-content:center;min-height:100vh}
+    .card{max-width:860px;width:92%;padding:28px;border-radius:14px;background:rgba(255,255,255,0.02);box-shadow:0 12px 40px rgba(2,6,23,0.7);border:1px solid rgba(255,255,255,0.03)}
+    h1{margin:0;font-size:34px}
+    p.lead{color:#9aa4b2;margin-top:8px}
+    .actions{margin-top:18px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:#06b6d4;color:#04294b;text-decoration:none;font-weight:700}
+    .small{color:#9aa4b2;margin-top:12px;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>I am <span id="nameDisplay">[Your Name]</span></h1>
+    <p class="lead">A quick personal intro. Replace the name above with your own.</p>
+
+    <div class="actions">
+      <a class="btn" href="#" onclick="alert('Say hi to visitors or link to your socials!')">Say hello</a>
+    </div>
+
+    <div class="small">How to personalize: open this file, replace <code>[Your Name]</code> with your name, save, and reload the page.</div>
+  </div>
+
+  <script>
+    // const myName = "Your Real Name";
+    // document.getElementById('nameDisplay').textContent = myName;
+  </script>
+</body>
+</html>
